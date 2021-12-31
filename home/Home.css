@@ -1,0 +1,46 @@
+
+  
+#box{
+    border:2 px solid blue;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.tohoku.ac.jp/en/events/images/event20170524t.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#box1{
+    height: 100vh;
+    width: 95%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.3;
+    border: 1px solid rgb(0, 132, 255);
+}
+#h{
+    z-index: 1;
+}
+.font-awesome{
+  font-size: 36px;
+  color: white;
+}
+.font-awesome-box{
+  margin-left: 200px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(197, 203, 204);
+    }
+    #box1{
+        width: 91%;
+    }
+  }
+@media screen and (max-width: 375px) {
+    body {
+      background-color: rgb(169, 170, 170);
+    }
+    #box1{
+        width: 87%;
+    }
+  }
